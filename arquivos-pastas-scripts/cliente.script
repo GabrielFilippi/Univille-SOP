@@ -1,0 +1,15 @@
+echo Gabriel Filippi
+touch cliente01.txt
+echo Gabriel Filippi>cliente01.txt
+less cliente01.txt
+echo Joinville-SC>>cliente01.txt
+less cliente01.txt
+mkdir clientes
+ls
+mv cliente01.txt clientes
+cd clientes
+ls
+cp cliente01.txt cliente01.txt.bkp
+rm cliente01.txt
+ls
+
